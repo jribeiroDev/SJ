@@ -47,7 +47,8 @@ p {
   color: #333;
   font-family: "Belleza", sans-serif;
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-top: -30px;
+  margin-bottom: 200px;
 }
 
 button {
@@ -128,6 +129,8 @@ button:hover {
 
   p {
     font-size: 1.5rem;
+    margin-bottom: 120px;
+    margin-top: 0px;
   }
 
   button {
@@ -145,7 +148,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   p {
     font-size: 1.2rem;
   }
@@ -156,6 +159,37 @@ button:hover {
   }
 
   .iframe-container iframe {
-    height: 50vh;
+    height: 70vh;
+  }
+
+  .close-btn {
+    font-size: 1rem;
+    padding: 15px 20px;
+  }
+} */
+
+@media screen and (max-width: 420px) {
+  img {
+    max-width: 75%; /* Reduz o tamanho da imagem */
+  }
+
+  p {
+    font-size: 1.3rem; /* Texto ajustado para exibição melhor */
+    margin-top: -30px; /* Espaçamento reduzido */
+    margin-bottom: 40px; /* Espaçamento reduzido */
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+
+  .iframe-container iframe {
+    height: 60vh;
+  }
+
+  .close-btn {
+    font-size: 1rem;
+    padding: 8px 15px;
   }
 }

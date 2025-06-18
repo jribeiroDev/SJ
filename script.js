@@ -11,4 +11,3 @@ function closeIframe() {
     iframeContainer.classList.add("hidden");
   }, 300); // Tempo igual ao da transição de opacidade no CSS
 }
-
